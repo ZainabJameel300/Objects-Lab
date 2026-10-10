@@ -290,13 +290,7 @@ game.catchPokemon = function (pokemonObj) {
   game.party.push(pokemonObj);
 };
 
-game.catchPokemon({
-  number: 145,
-  name: "Zapdos",
-  type: "electric",
-  hp: 90,
-  starter: false,
-});
+game.catchPokemon(pokemon[144]);
 console.log(game.party);
 
 /*
@@ -315,13 +309,7 @@ game.catchPokemon = function (pokemonObj) {
   game.party.push(pokemonObj);
   game.items[1].quantity--;
 };
-game.catchPokemon({
-  number: 149,
-  name: "Dragonite",
-  type: "dragon",
-  hp: 91,
-  starter: false,
-});
+game.catchPokemon(pokemon[148]);
 
 console.log(game.items[1].quantity);
 
